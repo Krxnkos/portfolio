@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    background-color: #24252a;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+li, a, button {
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #1a1b1f;
+    
+}
+
+.siteLogo {
+    cursor: pointer;
+}
+
+.navLinks {
+    list-style: none;
+}
+
+.navLinks li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navLinks li a {
+    transition: all 0.3s ease 0s;
+    font-size: 20px; /* Updated font size */
+}
+
+.navLinks li a:hover {
+    color: #002271;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: #000b71;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 20px; /* Updated font size */
+}
+
+button:hover {
+    background-color: #00064c;
+}
+
+
+/* Home Page */
+main {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    color: #edf0f1;
+    text-align: center;
+}
+
+.parallax1 {
+    /* The image used */
+    background-image: url("assets/parallax1.png");
+  
+    /* Set a specific height */
+    min-height: 750px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
